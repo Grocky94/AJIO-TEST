@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJIO</title>
+    <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #navbar {
+            height: 100px;
+            width: 100%;
+            border: 1px solid green;
+            display: flex;
+            background-color: #ffffff;
+        }
+
+        .logo {
+            height: 100%;
+            width: 25%;
+            font-size: 100px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .category {
+            height: 15px;
+            width: 50%;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 65px;
+
+
+        }
+
+        .signin {
+            height: 100%;
+            width: 25%;
+            border: 1px solid black;
+
+        }
+
+        .signin>:nth-child(1) {
+            height: 50%;
+            width: 100%;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .signin>:nth-child(1)>:nth-child(1) {
+            height: 25px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            margin-left: 120px;
+            justify-content: center;
+            padding: 12px;
+        }
+
+        .signin>:nth-child(2) {
+            display: flex;
+        }
+
+        .signin>:nth-child(2)>:nth-child(1) {
+            width: 70%;
+            HEIGHT: 35px;
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 5px;
+        }
+
+        .signin>:nth-child(2)>:nth-child(1)>input {
+            width: 290px;
+            height: 30px;
+            border: none;
+        }
+
+        .signin>:nth-child(2)>:nth-child(2) {
+            height: 18px;
+            width: 18px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            padding: 12px;
+            margin-left: 5px;
+        }
+
+        .signin>:nth-child(2)>:nth-child(3) {
+            height: 18px;
+            width: 18px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            padding: 12px;
+            margin-left: 5px;
+        }
+
+        .hrs-sale>img {
+            width: 100%;
+        }
+
+        @media screen and (max-width:550px){
+            #navbar {
+                height: 100%;
+                width: auto;
+                border: 1px solid green;
+                background-color: #ffffff;
+                display: grid;
+
+            }
+
+            .logo {
+                height: 30px;
+                width: auto;
+                padding-top: 5px;
+                font-size: 20px;
+                text-align: center;
+                border: 1px solid black;
+
+            }
+
+            .category {
+                height: 35px;
+                width: auto;
+                border: 1px solid black;
+                justify-content: space-evenly;
+                padding-top: 10px;
+
+
+            }
+
+            .signin {
+                height: 100%;
+                width: auto;
+                border: 1px solid black;
+            }
+
+            .signin>:nth-child(1) {
+                height: 25px;
+                width: auto;
+                border: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .signin>:nth-child(1)>:nth-child(1) {
+                height: 10px;
+                width: 120px;
+                display: flex;
+                padding-top: 0%;
+                border: 1px solid black;
+                background-color: black;
+                color: white;
+                margin-bottom: 2px;
+            }
+
+            .signin>:nth-child(2) {
+                display: flex;
+            }
+
+            .signin>:nth-child(2)>:nth-child(1) {
+                width: 400px;
+                HEIGHT: 35px;
+                border: 1px solid black;
+                border-radius: 20px;
+                margin-top: 2px;;
+                padding: 2px;
+            }
+
+            .signin>:nth-child(2)>:nth-child(1)>input {
+                width: 370px;
+                height: 30px;
+                
+                border: none;
+            }
+
+            .signin>:nth-child(2)>:nth-child(2) {
+                height: 20px;
+                width: 20px;
+                border: 1px solid black;
+                background-color: black;
+                color: white;
+            }
+
+            .signin>:nth-child(2)>:nth-child(3) {
+                height: 20px;
+                width: 20px;
+                border: 1px solid black;
+                background-color: black;
+                color: white;
+            }
+            .hrs-sale>img {
+            width: 100%;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="logo">AJIO</div>
+        <div class="category">
+            <strong>MEN</strong>
+            <strong>WOMEN</strong>
+            <strong>KIDS</strong>
+            <strong>INDIE</strong>
+            <strong>HOME AND KITCHEN</strong>
+
+        </div>
+        <div class="signin">
+            <div>
+                SignIn / Joint Ajio
+                Customer Care
+                <div>Visit AJIOLUXE</div>
+            </div>
+            <div>
+                <div><input placeholder="Search Ajio">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <span><i class="fa-regular fa-heart"></i></span>
+                <span><i class="fa-solid fa-bag-shopping"></i></span>
+            </div>
+        </div>
+    </div>
+    <div id="body">
+        <div class="hrs-sale"><img src="/D-UHP-Urgency-72Hrs-LiveNow.avif" alt="72hrs" /></div>
+        <div class="hrs-sale"><img src="/UHP-D-TopBanner-AJIOMANIA-5090.webp" /></div>
+        <div class="hrs-sale"><img src="/IDBI-1440x128-23.avif" /></div>
+        <div class="hrs-sale"><img src="/11022023-UHP-D-TopBanner-P1-Wardrobe-LevisUSpa-Min40.avif" /></div>
+        <div class="hrs-sale"><img src="/Mobikwik-1440x128-23.avif" /></div>
+        <div class="hrs-sale"><img src="/D-UHP-Rewards-Sectionheader.avif" /></div>
+
+    </div>
+
+</body>
+
+</html>
